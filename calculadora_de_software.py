@@ -1,8 +1,7 @@
-import plotly.express as px
+
 import streamlit as st
 import pandas as pd
 import io  # Necessário para a exportação de Excel na memória
-import plotly.express as px  # Necessário para o gráfico
 from google import genai
 from google.genai.errors import APIError
 import os  # Para uso geral
@@ -218,3 +217,4 @@ if st.button("Gerar Análise e Dicas do Gemini"):
         except Exception as e:
 
             st.error(f"Ocorreu um erro: {e}")
+
