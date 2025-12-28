@@ -1,4 +1,6 @@
+google-genai
 streamlit
 pandas
-plotly-express
-google-genai
+plotly
+xlsxwriter
+openpyxl
