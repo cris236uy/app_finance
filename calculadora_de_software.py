@@ -1,3 +1,4 @@
+import plotly.express as px 
 import streamlit as st
 import pandas as pd
 import io
@@ -128,5 +129,6 @@ if st.button("✨ Gerar Insights com IA"):
                 st.info(response.text)
             except Exception as e:
                 st.error(f"Erro na IA: {e}")
+
 
 
