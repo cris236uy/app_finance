@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import io
+from google import genai
 
 from google.genai.errors import APIError
 
@@ -127,4 +128,5 @@ if st.button("✨ Gerar Insights com IA"):
                 st.info(response.text)
             except Exception as e:
                 st.error(f"Erro na IA: {e}")
+
 
